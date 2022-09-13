@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+:root {
+  --cor-navbar: #e2ff9f;
+  --cor-button: #ade528;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #140c2b;
+  font-family: 'Poppins', sans-serif;
+}
+#titulo-12{
+    color: #140c2b;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1rem;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+header {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 1rem;
+  background-color: var(--cor-navbar);
+  padding: 1em;
+}
+img{
+  border-radius: 4rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #140c2b;
+  font-size: 1rem;
+}
+
+header a:hover {
+  color: #140c2b;
+}
+
+nav {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+}
+
+main {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  background-color: #e2ff9f;
+  border-radius: 10px;
+  padding: 30px;
+  padding-bottom: 80px;
+}
+.inicio {
+  border-radius: 10px;
+  width: 100%;
+  height: 50vh;
+  background-image: url(/imagens/playstation.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.texto-inicio {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  padding: 0 50px;
+  color: #140c2b;
+}
+
+section h2 {
+  color: #140c2b;
+  font-size: 1.6em;
+  margin-top: 50px;
+  background-color: #2f2f2f;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+
+}
+
+.box {
+  max-width: 13rem;
+  color: #140c2b;
+}
+
+.box img {
+  width: 100%;
+  height: 80%;
+}
+
+.plataforma {
+  font-weight: 900;
+}
+
+.comprar button,
+.comprar input {
+  padding: 5px;
+  font-size: 1.3em;
+  color: white;
+  border: none;
+  background-color: var(--cor-button);
+  border-radius: 5px;
+}
+
+.comprar button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--cor-button);
+}
+
+.comprar button {
+  width: 100%;
+
+}
+
+#fade,
+#modal {
+  opacity: 1;
+  transition: .5s;
+}
+
+#fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.7);
+  z-index: 2;
+}
+
+#modal {
+  width: 80%;
+  border: black solid 5px;
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 3;
+}
+
+#modal.hide,
+#fade.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#tela-pedidos {
+  height: 50vh;
+}
+
+#tela-pedidos h2 {
+  display: inline-block;
+}
+
+#fechar-modal {
+  width: 2em;
+  cursor: pointer;
+}
+
+#pedidos {
+  margin-top: 10px;
+  font-size: 1.5em;
+  overflow: auto;
+  height: 80%;
+}
+
+
+
+#valor-total p {
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+#btn-pagar button {
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: 10px;
+  font-size: 1.3em;
+  background-color: var(--cor-button);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  float: right;
+  cursor: pointer;
+}
+#pedidos {
+
+  font-size: 1em;
+  height: 75%;
+}
+
+footer{
+    padding: 50px 0;
+    margin-top: 5rem;
+    background-image: linear-gradient(to bottom, #140c2b, #e2ff9f);
+    color: #fff;
+    text-align: center;
+}
+footer img{
+    height: 100px;
+    margin: 30px 0;
+}
+footer p{
+    margin-top: 25px;
+}
+footer form{
+    width: 400px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer input, footer textarea{
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+footer .detail{
+    font-weight: bold;
+}
+#pperfil{
+    color: black;
+}
