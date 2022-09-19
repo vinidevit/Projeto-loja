@@ -4,7 +4,7 @@
 
 > Loja com carrinho
 
-[clique aqui para acessar](https://vinidevit.github.io/Projeto-loja
+[clique aqui para acessar](https://vinidevit.github.io/Projeto-loja)
 
 Projeto final para avaliação do curso de Desenvolvedor Front-end do SENAI Brasília-DF
 
