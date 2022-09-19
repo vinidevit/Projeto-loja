@@ -12,6 +12,7 @@
 }
 
 body {
+  margin-top: 1rem;
   background-color: #140c2b;
   font-family: 'Poppins', sans-serif;
 }
